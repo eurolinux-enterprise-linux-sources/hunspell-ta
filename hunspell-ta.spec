@@ -1,7 +1,7 @@
 Name: hunspell-ta
 Summary: Tamil hunspell dictionaries
 Version: 20100226
-Release: 7%{?dist}
+Release: 8%{?dist}
 # Upstream download link is dead now
 #Source: http://tamil.nrcfoss.au-kbc.org.in/files/hunspell/ta_IN-hunspell-Wordlist.tar.gz
 Source: ta_IN-hunspell-Wordlist.tar.gz
@@ -30,6 +30,9 @@ cp -p ta_IN-hunspell-wordlist/*.dic ta_IN-hunspell-wordlist/*.aff $RPM_BUILD_ROO
 %{_datadir}/myspell/*
 
 %changelog
+* Fri Dec 27 2013 Daniel Mach <dmach@redhat.com> - 20100226-8
+- Mass rebuild 2013-12-27
+
 * Thu Feb 14 2013 Fedora Release Engineering <rel-eng@lists.fedoraproject.org> - 20100226-7
 - Rebuilt for https://fedoraproject.org/wiki/Fedora_19_Mass_Rebuild
 
